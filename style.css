@@ -1,0 +1,97 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  padding: 2%;
+  background-color: #6a5d2d;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+label {
+  text-align: left;
+}
+input {
+  text-align: right;
+  width: min-content;
+}
+.submit {
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 162, 255);
+  border-radius: 14px;
+  color: aliceblue;
+  border: 5px solid rgb(0, 162, 255);
+}
+.left {
+  border-radius: 16px;
+  width: 200px;
+  height: max-content;
+  text-align: center;
+  height: 100%;
+}
+.main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-color: rgb(106, 93, 45);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 3%;
+}
+form {
+  background-color: rgb(0, 0, 0);
+  border: 6px solid rgb(255, 191, 0);
+  gap: 5px;
+  border-radius: 16px;
+  width: 200px;
+  height: min-content;
+  color: rgb(255, 255, 255);
+}
+#right {
+  display: grid;
+  width: max-content;
+  height: max-content;
+  gap: 20px;
+  padding: 2%;
+  grid-template-columns: auto auto auto;
+  grid-auto-flow: rows;
+  margin-left: 10px;
+}
+.unit {
+  height: max-content;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 220px;
+  border: 6px solid rgb(246, 207, 11);
+  border-radius: 16px;
+  word-break: break-all;
+  background-color: black;
+  color: aliceblue;
+}
+a {
+  color: aliceblue;
+}
+.edit {
+  font-size: larger;
+}
+
+.del {
+  width: 40%;
+}
